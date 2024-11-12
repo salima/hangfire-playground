@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\workers\\jobconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:workers\\jobconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\workers\\consolidacaodadosrecurringjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:workers\\consolidacaodadosrecurringjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\configurations\\hangfireconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:configurations\\hangfireconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{f2bd8fb8-fc94-3dae-a733-fd993c73cc87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsolidacaoDadosRecurringJob.cs",
+              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\ConsolidacaoDadosRecurringJob.cs",
+              "RelativeDocumentMoniker": "Workers\\ConsolidacaoDadosRecurringJob.cs",
+              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\ConsolidacaoDadosRecurringJob.cs",
+              "RelativeToolTip": "Workers\\ConsolidacaoDadosRecurringJob.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:57:34.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobConfigurations.cs",
+              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\JobConfigurations.cs",
+              "RelativeDocumentMoniker": "Workers\\JobConfigurations.cs",
+              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\JobConfigurations.cs",
+              "RelativeToolTip": "Workers\\JobConfigurations.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:50:48.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HangfireConfiguration.cs",
+              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Configurations\\HangfireConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\HangfireConfiguration.cs",
+              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Configurations\\HangfireConfiguration.cs",
+              "RelativeToolTip": "Configurations\\HangfireConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:56:01.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:54:49.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\HangfirePlayground.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\HangfirePlayground.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\HangfirePlayground.csproj",
+        "projectName": "HangfirePlayground",
+        "projectPath": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\HangfirePlayground.csproj",
+        "packagesPath": "C:\\Users\\falec\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\falec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/icatu/f3d05fc8-0d0e-48c2-9cae-d58722d631c5/_packaging/Icatu.Cap.Common/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/icatu/f3d05fc8-0d0e-48c2-9cae-d58722d631c5/_packaging/Icatu.Cap.Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.15, )"
+            },
+            "Hangfire.Dashboard.Authorization": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
