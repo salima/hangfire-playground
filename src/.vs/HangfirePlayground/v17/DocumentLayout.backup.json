@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\workers\\jobconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:workers\\jobconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\workers\\consolidacaodadosrecurringjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:workers\\consolidacaodadosrecurringjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\configurations\\hangfireconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:configurations\\hangfireconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|c:\\projetos\\eximia\\estudos\\hangfire-playground\\src\\controllers\\samplehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC59A00-5844-4622-BE9F-D8C8D84D1B6C}|HangfirePlayground.csproj|solutionrelative:controllers\\samplehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,51 +94,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConsolidacaoDadosRecurringJob.cs",
-              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\ConsolidacaoDadosRecurringJob.cs",
-              "RelativeDocumentMoniker": "Workers\\ConsolidacaoDadosRecurringJob.cs",
-              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\ConsolidacaoDadosRecurringJob.cs",
-              "RelativeToolTip": "Workers\\ConsolidacaoDadosRecurringJob.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:57:34.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JobConfigurations.cs",
-              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\JobConfigurations.cs",
-              "RelativeDocumentMoniker": "Workers\\JobConfigurations.cs",
-              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Workers\\JobConfigurations.cs",
-              "RelativeToolTip": "Workers\\JobConfigurations.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:50:48.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HangfireConfiguration.cs",
-              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Configurations\\HangfireConfiguration.cs",
-              "RelativeDocumentMoniker": "Configurations\\HangfireConfiguration.cs",
-              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Configurations\\HangfireConfiguration.cs",
-              "RelativeToolTip": "Configurations\\HangfireConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:56:01.323Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:54:49.761Z",
+              "WhenOpened": "2024-11-12T13:36:39.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SampleHealthCheck.cs",
+              "DocumentMoniker": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Controllers\\SampleHealthCheck.cs",
+              "RelativeDocumentMoniker": "Controllers\\SampleHealthCheck.cs",
+              "ToolTip": "C:\\Projetos\\Eximia\\Estudos\\hangfire-playground\\src\\Controllers\\SampleHealthCheck.cs",
+              "RelativeToolTip": "Controllers\\SampleHealthCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:14:50.312Z",
               "EditorCaption": ""
             }
           ]

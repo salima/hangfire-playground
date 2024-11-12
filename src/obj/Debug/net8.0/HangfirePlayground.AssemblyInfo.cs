@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HangfirePlayground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+631e6c7e9cff8888661e3d3b6b42d287cf2e8c3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f05ad1ed85063740ad7e2dc578068e01d7250a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HangfirePlayground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HangfirePlayground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
