@@ -1,8 +1,7 @@
+using Hangfire;
 using HangfirePlayground.Configurations;
 using HangfirePlayground.Controllers;
 using HangfirePlayground.Workers;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
-
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.OpenApi.Models;
@@ -61,6 +60,8 @@ app.MapHealthChecks("/health", new HealthCheckOptions()
 
 app.UseHealthChecksUI(options => { options.UIPath = "/dashboard"; });
 
+// Map Dashboard to the `http://<your-app>/hangfire`
+app.UseHangfireDashboard();
 
 var jobConfigurations = app.Services.GetRequiredService<JobConfigurations>();
 jobConfigurations.ConfigureJobs();

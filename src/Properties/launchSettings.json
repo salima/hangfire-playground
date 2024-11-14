@@ -22,7 +22,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "dashboard",
+      "launchUrl": "hangfire",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
