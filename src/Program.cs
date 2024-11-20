@@ -16,7 +16,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHangfireConfiguration(builder.Configuration);
 builder.Services.AddSwaggerGen();
-builder.Services.AddHangfireServer();
 
 builder.Services.AddTransient<ConsolidacaoDadosRecurringJob>();
 builder.Services.AddTransient<NotificacaoEmailJob>();
@@ -40,7 +39,6 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -61,7 +59,6 @@ app.MapHealthChecks("/health", new HealthCheckOptions()
 
 app.UseHealthChecksUI(options => { options.UIPath = "/dashboard"; });
 
-// Map Dashboard to the `http://<your-app>/hangfire`
 app.UseHangfireDashboard();
 
 app.Run();

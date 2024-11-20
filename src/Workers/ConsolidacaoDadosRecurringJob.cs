@@ -16,7 +16,7 @@ namespace HangfirePlayground.Workers
 
         public static string Id => "consolidacao-dados";
 
-        public void Iniciar()
+        public void Iniciar(string queue)
         {
             try
             {
@@ -27,7 +27,7 @@ namespace HangfirePlayground.Workers
 
 
                  //Inicia a notificação de email, depois de 2 minutos
-                _backgroundJobClient.Schedule<NotificacaoEmailJob>((x) => x.Iniciar(), TimeSpan.FromMinutes(2));
+                _backgroundJobClient.Schedule<NotificacaoEmailJob>(queue, (x) => x.Iniciar(), TimeSpan.FromMinutes(2));
             }
             catch (Exception ex)
             {

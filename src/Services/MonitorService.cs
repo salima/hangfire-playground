@@ -16,7 +16,8 @@ namespace HangfirePlayground.Services
 
         public async Task StartAsync(CancellationToken cancellationToken)
         {
-           await AddJobs();
+           await AddJob("server01_critical");
+           await AddJob("server02_critical");
         }
 
         public Task StopAsync(CancellationToken cancellationToken)
@@ -24,14 +25,14 @@ namespace HangfirePlayground.Services
             throw new NotImplementedException();
         }
 
-        private async Task AddJobs()
+        private async Task AddJob(string queue)
         {
             _recurringJobManager.AddOrUpdate<ConsolidacaoDadosRecurringJob>(
-               ConsolidacaoDadosRecurringJob.Id,
-               (x) => x.Iniciar(),
+               $"{queue}-{ConsolidacaoDadosRecurringJob.Id}",
+               queue,
+               (x) => x.Iniciar(queue),
                Cron.Daily
            );
-
         }
     }
 }

@@ -14,6 +14,16 @@ namespace HangfirePlayground.Configurations
                 .UseSimpleAssemblyNameTypeSerializer()
                 .UseRecommendedSerializerSettings()
                 .UseSqlServerStorage(hangfireSettings.ConnectionStrings));
+
+            foreach (var server in hangfireSettings.Servers)
+            {
+                services.AddHangfireServer(options =>
+                {
+                    options.ServerName = server.ServerName;
+                    options.Queues = server.Queues;
+                    options.WorkerCount = server.WorkerCount;
+                });
+            }
         }
     }
 }
