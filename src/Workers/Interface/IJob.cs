@@ -1,4 +1,4 @@
-﻿namespace HangfirePlayground.Workers
+﻿namespace HangfirePlayground.Workers.Interface
 {
     public interface IJob
     {

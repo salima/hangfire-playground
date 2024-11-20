@@ -1,6 +1,7 @@
 using Hangfire;
 using HangfirePlayground.Configurations;
 using HangfirePlayground.Controllers;
+using HangfirePlayground.Services;
 using HangfirePlayground.Workers;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
@@ -15,11 +16,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHangfireConfiguration(builder.Configuration);
 builder.Services.AddSwaggerGen();
+builder.Services.AddHangfireServer();
 
-// Registra os jobs e JobConfigurations como serviços
-builder.Services.AddSingleton<JobConfigurations>();
 builder.Services.AddTransient<ConsolidacaoDadosRecurringJob>();
 builder.Services.AddTransient<NotificacaoEmailJob>();
+builder.Services.AddHostedService<MonitorService>();
 
 builder.Services.AddHealthChecks()
     .AddCheck<SampleHealthCheck>("Sample");
@@ -62,8 +63,5 @@ app.UseHealthChecksUI(options => { options.UIPath = "/dashboard"; });
 
 // Map Dashboard to the `http://<your-app>/hangfire`
 app.UseHangfireDashboard();
-
-var jobConfigurations = app.Services.GetRequiredService<JobConfigurations>();
-jobConfigurations.ConfigureJobs();
 
 app.Run();

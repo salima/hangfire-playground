@@ -1,4 +1,5 @@
 ﻿using Hangfire;
+using HangfirePlayground.Workers.Interface;
 
 namespace HangfirePlayground.Workers
 {
