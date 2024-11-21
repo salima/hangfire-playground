@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace HangfirePlayground.Controllers
+namespace HangfirePlayground_server.Controllers
 {
     public class SampleHealthCheck : IHealthCheck
     {
